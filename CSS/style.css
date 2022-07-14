@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    display: inline-flex;
+}
+
