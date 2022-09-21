@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Comforter', cursive;
+    border-radius: 25px;
+    border-color: goldenrod;
+}
+
+body {
+    background-image: linear-gradient(papayawhip, dodgerblue, papayawhip);
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+form button {
+    padding: .5em;
+
+}
+
+input {
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: papayawhip;
+}
+
+ul li{
+    display: flex;
+    gap: 1em;
+    padding: 1rem;
+}
+
+li label {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1em;
+}
+
+.a {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 1em;
+    font-size: 1.45em;
+    align-items: center;
+}
+
+.b {
+    background-color: goldenrod;
+}
+
+.c {
+    background-color: peru;
+    display: flex;
+}
